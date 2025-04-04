@@ -12,3 +12,4 @@ C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\refint
 C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\screen-sound-poo.pdb
 C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\screen-sound-poo.genruntimeconfig.cache
 C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\ref\screen-sound-poo.dll
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\screen-sound-poo.sourcelink.json
