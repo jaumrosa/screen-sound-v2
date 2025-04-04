@@ -1,0 +1,14 @@
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\screen-sound-poo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\screen-sound-poo.AssemblyInfoInputs.cache
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\screen-sound-poo.AssemblyInfo.cs
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\screen-sound-poo.csproj.CoreCompileInputs.cache
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\bin\Debug\net9.0\screen-sound-poo.exe
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\bin\Debug\net9.0\screen-sound-poo.deps.json
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\bin\Debug\net9.0\screen-sound-poo.runtimeconfig.json
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\bin\Debug\net9.0\screen-sound-poo.dll
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\bin\Debug\net9.0\screen-sound-poo.pdb
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\screen-sound-poo.dll
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\refint\screen-sound-poo.dll
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\screen-sound-poo.pdb
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\screen-sound-poo.genruntimeconfig.cache
+C:\Users\Computador\Desktop\Projetos\C#\screen-sound-poo\obj\Debug\net9.0\ref\screen-sound-poo.dll
