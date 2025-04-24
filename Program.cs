@@ -1,15 +1,21 @@
-﻿Musica musica1 = new Musica();
-musica1.Nome = "White Sand";
-musica1.Artista = "Migos";
-musica1.Duracao = 273;
-musica1.Disponivel = true;
-Console.WriteLine(musica1.DescricaoResumida);
+﻿Banda travis = new Banda();
+travis.Nome = "Travis Scott";
 
-Musica musica2 = new Musica();
-musica2.Nome = "Vertigo";
-musica2.Artista = "U2";
-musica2.Duracao = 367;
-musica2.Disponivel = false;
+Album albumDoTravis = new Album();
+albumDoTravis.Nome = "Utopia";
 
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
+Musica musica1 = new Musica(travis);
+musica1.Nome = "My Eyes";
+musica1.Duracao = 251;
+
+
+Musica musica2 = new Musica(travis);
+musica2.Nome = "I Know?";
+musica2.Duracao = 211;
+
+albumDoTravis.AdicionarMusica(musica1);
+albumDoTravis.AdicionarMusica(musica2);
+
+
+travis.AdicionarAlbum(albumDoTravis);
+travis.ExibirDiscografia();
