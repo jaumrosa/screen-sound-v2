@@ -1,4 +1,4 @@
-class Banda
+ class Banda
 {   
     private List <Album> albums = new List<Album>();
 
@@ -6,7 +6,7 @@ class Banda
     {
         Nome = nome;
     }
-    public string Nome{ get; }
+    public string Nome{ get; set; }
 
     public void AdicionarAlbum(Album album)
     {

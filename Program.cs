@@ -1,24 +1,21 @@
-﻿Banda travis = new Banda("Travis Scott");
+﻿Episodio ep1 = new(3, "Técnicas de facilitação", 45);
+ep1.AdicionarConvidados("João");
+ep1.AdicionarConvidados("Geovana");
 
-Album albumDoTravis = new Album("Utopia");
 
-Musica musica1 = new Musica(travis, "My Eyes")
-{
-    Duracao = 251,
-    Disponivel = false,
-};
+Episodio ep2 = new(2, "Técnicas de aprendizado", 61);
+ep2.AdicionarConvidados("Pedro");
+ep2.AdicionarConvidados("Jorge");
+ep2.AdicionarConvidados("Guilherme");
 
-Musica musica2 = new Musica(travis, "I Know?")
-{
-    Duracao = 211,
-    Disponivel = true,
-};
 
-albumDoTravis.AdicionarMusica(musica1);
-albumDoTravis.AdicionarMusica(musica2);
-travis.AdicionarAlbum(albumDoTravis);
+Episodio ep3 = new(1, "Técnicas de Marketing", 30);
+ep3.AdicionarConvidados("João");
+ep3.AdicionarConvidados("Geovana");
+ep3.AdicionarConvidados("Pedro");
 
-musica1.ExibirFichaTecnica();
-musica2.ExibirFichaTecnica();
-albumDoTravis.ExibirMusicasDoAlbum();
-travis.ExibirDiscografia();
+Podcast podcast = new("Podcast Coding", "João");
+podcast.AdicionarEpisodio(ep1);
+podcast.AdicionarEpisodio(ep2);
+podcast.AdicionarEpisodio(ep3);
+podcast.ExibirDetalhes();
