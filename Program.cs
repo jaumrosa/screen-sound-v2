@@ -1,21 +1,24 @@
-﻿Banda travis = new Banda();
-travis.Nome = "Travis Scott";
+﻿Banda travis = new Banda("Travis Scott");
 
-Album albumDoTravis = new Album();
-albumDoTravis.Nome = "Utopia";
+Album albumDoTravis = new Album("Utopia");
 
-Musica musica1 = new Musica(travis);
-musica1.Nome = "My Eyes";
-musica1.Duracao = 251;
+Musica musica1 = new Musica(travis, "My Eyes")
+{
+    Duracao = 251,
+    Disponivel = false,
+};
 
-
-Musica musica2 = new Musica(travis);
-musica2.Nome = "I Know?";
-musica2.Duracao = 211;
+Musica musica2 = new Musica(travis, "I Know?")
+{
+    Duracao = 211,
+    Disponivel = true,
+};
 
 albumDoTravis.AdicionarMusica(musica1);
 albumDoTravis.AdicionarMusica(musica2);
-
-
 travis.AdicionarAlbum(albumDoTravis);
+
+musica1.ExibirFichaTecnica();
+musica2.ExibirFichaTecnica();
+albumDoTravis.ExibirMusicasDoAlbum();
 travis.ExibirDiscografia();
