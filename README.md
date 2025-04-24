@@ -1,4 +1,4 @@
-## 📝 README.md — Projeto: Sistema de Mídia Musical e Podcast
+## 📝 README.md — Projeto Screen Sound
 
 ### 🎯 Sobre o Projeto
 
